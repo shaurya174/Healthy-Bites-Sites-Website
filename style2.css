@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f9f9f9;
+    color:#333333;
+    line-height: 1.6;
+}
+header{
+    padding: 10px 0;
+    background-color: #a3d2ca;
+}
+#navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #056676;
+    margin: 0 20px;
+}
+#navbar{
+    text-align: center;
+}
+h2{
+    font-size: 28px;
+    text-align: center;
+    color: #056676;
+    margin: 30px 0;
+}
+#recipe-table{
+    width:80%;
+    margin:20px auto;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    border:1px solid #333;
+}
+th{
+    background-color: rgb(163,210,202);
+    font-weight: bold;
+}
+aside{
+    background-color: #e0f7fa;
+    padding: 15px;
+    width: 60%;
+    font-size: 16px;
+    margin: 30px auto;
+    border-left: 5px solid #056676;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #056676;
+    color: white;
+}
+#navbar a:hover {
+    text-decoration: underline;
+    color: #033f4a;
+}
+#site-title{
+    text-align: center;
+    font-size: 32px;
+    color:#056676;
+    margin: 10px 0;
+}
+aside ul{
+    padding-left: 20px;
+    list-style-type: disc;
+}
+aside li{
+    margin-bottom: 8px;
+}
+#content-box{
+    width:90%;
+    margin: 0 auto;
+}
